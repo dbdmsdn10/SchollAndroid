@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="뭐지" />
+        tools:text="바바예투예투리에" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -24,6 +24,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/strBtn1"
+        android:onClick="doit"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtn2"
+        android:onClick="doit"
         android:textSize="30sp"/>
 
     <Switch

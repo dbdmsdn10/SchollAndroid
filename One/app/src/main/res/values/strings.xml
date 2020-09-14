@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="strBtn1">확인</string>
+    <string name="strBtn1">확인1</string>
+    <string name="strBtn2">확인2</string>
 </resources>
