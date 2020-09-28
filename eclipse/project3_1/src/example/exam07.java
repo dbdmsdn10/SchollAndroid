@@ -23,6 +23,13 @@ public class exam07 {
 		car3.upSpeed(250);
 		System.out.println("3의 색상은"+car3.getColor()+"속도는"+car3.getSpeed()+"입니다");
 		
+		System.out.println("필드"+car.catcount);
+		System.out.println("메소드"+car.currentcarcount());
+		System.out.println("제한속도"+car.maxspeed);
+		
+		System.out.println(Math.PI);
+		System.out.println(Math.pow(3, 5));
+		
 		
 	}
 }
