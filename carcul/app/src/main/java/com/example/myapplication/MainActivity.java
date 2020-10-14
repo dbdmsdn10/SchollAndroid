@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     TextView txtresult;
     EditText edit1, edit2;
     Button a;
-    CheckBox b;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +36,7 @@ public class MainActivity extends AppCompatActivity {
 //                return false;
 //            }
 //        });
-        b.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
-            }
-        });
     }
 
     public void doit(View view) {

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tablelayout"></activity>
+        <activity android:name=".Framlayout"></activity>
+        <activity android:name=".Gridlayout" />
+        <activity android:name=".tablelayout" />
         <activity android:name=".RelativeLayout" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main2Activity" />
