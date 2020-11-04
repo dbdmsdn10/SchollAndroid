@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -22,8 +23,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="match_parent"
@@ -34,35 +34,45 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="1" />
+                android:onClick="NO"
+                android:text="1"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2" />
+                android:onClick="NO"
+                android:text="2"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3" />
+                android:onClick="NO"
+                android:text="3"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="4" />
+                android:onClick="NO"
+                android:text="4"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="5" />
+                android:onClick="NO"
+                android:text="5"
+                tools:ignore="OnClick" />
         </TableRow>
 
         <TableRow
@@ -74,35 +84,45 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="6" />
+                android:onClick="NO"
+                android:text="6"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="7" />
+                android:onClick="NO"
+                android:text="7"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="8" />
+                android:onClick="NO"
+                android:text="8"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="9" />
+                android:onClick="NO"
+                android:text="9"
+                tools:ignore="OnClick" />
 
             <Button
                 android:id="@+id/no0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
+                android:onClick="NO"
+                android:text="0"
+                tools:ignore="OnClick" />
         </TableRow>
     </TableLayout>
 
