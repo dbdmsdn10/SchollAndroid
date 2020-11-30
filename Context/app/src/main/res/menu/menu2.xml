@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rotation"
+        android:title="돌리기"/>
+    <item
+        android:id="@+id/zoom"
+        android:title="확대"/>
+</menu>

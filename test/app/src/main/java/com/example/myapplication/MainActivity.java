@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -32,10 +33,14 @@ public class MainActivity extends AppCompatActivity {
 Intent mainac;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mainac=getIntent();//main2로 값전달을 위한것
-        new IntentIntegrator(MainActivity.this).initiateScan();
+        IntentIntegrator intentIntegrator=new IntentIntegrator(MainActivity.this);
+        intentIntegrator.setOrientationLocked(false);
+        intentIntegrator.initiateScan();
+
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
